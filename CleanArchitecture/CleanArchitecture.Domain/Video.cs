@@ -4,9 +4,9 @@ namespace CleanArchitecture.Domain
 {
     public class Video : BaseDomainModel
     {
-       public Video ()
+        public Video()
         {
-            Actores = new HashSet<Actor> ();
+            Actores = new HashSet<Actor>();
         }
 
         public string? Nombre { get; set; }
